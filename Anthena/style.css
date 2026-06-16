@@ -15,15 +15,16 @@
     /* border: 1px solid green; */
 }
 
+header{
+    padding: 1rem;
+    /* border: 1px solid magenta; */
+}
+
 .sub-heading{
     font-weight: 600;
     margin: 0;
 }
 
-header{
-    padding: 1rem;
-    /* border: 1px solid magenta; */
-}
 
 h1{
     margin: 0;
@@ -46,8 +47,8 @@ li a{
     display: inline-block;
     background-color: #F24E1A;
     padding: 1rem 2rem;
-    color: #fff;
     border-radius: 5px;
+    color: #fff;
 }
 
 /* Images */
