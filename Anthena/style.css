@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Typography */
+
+.logo, .sub-heading{
+    color: #F24E1A;
+}
+
+.logo{
+    font-weight: 700;
+    /* border: 1px solid green; */
+}
+
+.sub-heading{
+    font-weight: 600;
+    margin: 0;
+}
+
+header{
+    padding: 1rem;
+    /* border: 1px solid magenta; */
+}
+
+h1{
+    margin: 0;
+    padding-bottom: 0.75rem;
+}
+
+.desc{
+    margin: 0;
+    padding: 0.75rem 0;
+    line-height: 1.25;
+}
+
+/* Links */
+li a{
+    color: black;
+}
+
+/* Buttons */
+.btn{
+    display: inline-block;
+    background-color: #F24E1A;
+    padding: 1rem 2rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Images */
+.main-img{
+    width:100%;
+    border-radius: 50%;
+    aspect-ratio: 457.5 / 426.75; /* Preserves Figma proportions */
+    object-fit: cover;
+}
+
+/* Layouts */
+.container{
+    /* border: 1px solid yellow; */
+    margin: 0 auto;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    gap: 4rem;
+}
+
+.img-wrapper{
+    /* border: 1px solid red; */
+    width: 40%;
+}
+
+.intro{
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+
+/* Navigation */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
