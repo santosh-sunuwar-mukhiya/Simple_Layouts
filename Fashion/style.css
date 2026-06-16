@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Typography */
+.logo{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.sub-heading{
+    text-transform: uppercase;
+    color: #44C3EBCC;
+    font-weight: 600;
+    font-size: 1.857rem;
+    margin: 0;
+}
+
+.desc{
+    margin: 0;
+    font-weight: 300;
+    font-size: 3rem;
+    letter-spacing: 10%;
+}
+
+/* Buttons */
+.btn{
+    display: inline-block;
+    background-color: #F24E1A;
+    color: #fff;
+    border: none;
+}
+
+.signup{
+    padding: 0.5rem 1.5rem;
+    border-radius: 18px;
+    margin-left: 2rem;
+}
+
+.primary{
+    padding: 0.5rem 1.5rem;
+    border-radius: 18px;
+}
+
+/* Navigation */
+
+header{
+    padding: 1rem 1rem 2rem;
+    /* border: 1px solid magenta; */
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Layouts */
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid yellow; */
+}
+
+.intro{
+    width: 60%;
+}
+
+/* Images */
+.main-img{
+    width: 20%;
+}
